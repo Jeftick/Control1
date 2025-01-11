@@ -42,3 +42,10 @@ p {
 .button:hover {
     background-color: #45a049;
 }
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Ограничиваем ширину логотипа */
+    height: auto; /* Сохраняем пропорции изображения */
+}
